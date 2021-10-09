@@ -1,0 +1,48 @@
+
+nav
+{
+    color: var(--font);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    background-color: var(--fondo2);
+    height: 70px;
+    align-items: center;
+}
+
+h1
+{
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.container-btn
+{
+    display: flex;
+    gap: 2%;
+}
+
+.btn-nav-secundarios
+{
+    background-color: transparent;
+    border: none;
+    color: var(--font);
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    font-family: 'Nunito';
+    font-size: 16px;
+}
+
+.btn-nav-principal
+{
+    border: none;
+    color: var(--font);
+    background-color: var(--principal);
+    width: 120px;
+    border-radius: 20px;
+    height: 35px;
+    cursor: pointer;
+    font-family: 'Nunito';
+    font-size: 16px;
+}
