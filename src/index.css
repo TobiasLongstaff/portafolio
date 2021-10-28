@@ -19,3 +19,81 @@ body
     color: var(--fondo2);
     background-color: var(--font);
 }
+
+.container-app
+{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-sistema
+{
+    background-color: #ff7979;
+    padding: 0 5%;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.container-proyectos
+{
+    margin: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container-btn-sist
+{
+    display: flex;
+    justify-content: right;
+    margin-top: 5px;
+}
+
+h2
+{
+    font-size: 40px;
+    color: var(--principal);
+}
+
+h3
+{
+    color: var(--font);
+}
+
+.num-1
+{
+    background-color: #686de0;
+}
+
+.num-2
+{
+    background-color: #30336b;
+}
+
+.num-3
+{
+    background-color: #4834d4;
+}
+
+.num-4
+{
+    background-color: #130f40;
+}
+
+p
+{
+    font-size: 22px;
+}
+
+.img-sist
+{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn-mas-info-sist
+{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
