@@ -29,9 +29,9 @@ body
 
 .container-sistema
 {
-    background-color: #ff7979;
     padding: 0 5%;
-    padding-bottom: 5px;
+    padding-bottom: 5%;
+    height: calc(50vh - 34px);
     text-align: center;
 }
 
@@ -42,11 +42,13 @@ body
     grid-template-columns: repeat(2, 1fr);
 }
 
-.container-btn-sist
+.container-info-sistem
 {
+    /* display: none; */
+    position: absolute;
+    color: white;
     display: flex;
-    justify-content: right;
-    margin-top: 5px;
+    background-color: #130f40cf;
 }
 
 h2
@@ -62,33 +64,58 @@ h3
 
 .num-1
 {
+    border-top-left-radius: 5px;
     background-color: #686de0;
 }
 
 .num-2
 {
+    border-top-right-radius: 5px;
     background-color: #30336b;
 }
 
 .num-3
 {
+    border-bottom-left-radius: 5px;
     background-color: #4834d4;
 }
 
 .num-4
 {
+    border-bottom-right-radius: 5px;
     background-color: #130f40;
 }
 
 p
 {
     font-size: 22px;
+    margin-top: 60px;
 }
 
 .img-sist
 {
-    border-radius: 5px;
     width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px #161616bf;
+}
+
+.img-sist-app
+{
+    max-height: 375px;  
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px #161616bf;
+}
+
+.img-mi-foto
+{
+    border-radius: 50%;
+    border: 7px solid var(--principal);
+    position: absolute;
+}
+
+.img-logo-leng
+{
+    width: 100px;
 }
 
 .btn-mas-info-sist
