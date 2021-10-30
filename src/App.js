@@ -35,7 +35,7 @@ const App = () =>
                     <img ref={imgFoto} className="img-mi-foto" src={mifoto} alt=""></img>
                     <h2>Bienvenido a mi portafolio</h2>
                     <p ref={textoBienvenida}>Mi nombre es Tobias Longstaff y tengo 20 años, soy técnico en<br/>
-                        informática y actualmente me encuentro estudiando Licenciatura en <br/>
+                        informática, actualmente me encuentro estudiando Licenciatura en <br/>
                         Tecnología de la Información. Llevo 2 años trabajando como desarrollador FullStack<br/>
                         a la par que 3 años realizando soporte técnico a múltiples empresas.</p> 
                     <h2>Proyectos</h2>         
@@ -74,22 +74,53 @@ const App = () =>
                 <div>
                     <h2>Habilidades</h2>
                     <p>Estas son algunas de la tecnología con los que trabajo:</p>
-                    <div>
-                        <img className="img-logo-leng" loading="lazy" src="https://clipart.info/images/ccovers/1499794873php-logo-filled-png.png" alt="Php"></img>
-                        <img className="img-logo-leng" loading="lazy" src={reactlogo} alt="React"></img>
-                        <img className="img-logo-leng" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/1200px-HTML5_logo_resized.svg.png" alt="Html"></img>
-                        <img className="img-logo-leng" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="Css"></img>
-                        <img className="img-logo-leng" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png" alt="Js"></img>
-                        <img className="img-logo-leng" loading="lazy" src="https://blog.artegrafico.net/wp-content/uploads/2019/02/jQuery-logo.png" alt="Jquery"></img>
-                        <img className="img-logo-leng" loading="lazy" src="https://www.abd.es/wp-content/uploads/2018/11/sql-server-logo.png" alt="Sql Server"></img>
-                        <img className="img-logo-leng" loading="lazy" src="https://1000marcas.net/wp-content/uploads/2020/11/MySQL-logo.png" alt="MySql"></img>
-                        <img className="img-logo-leng" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png" alt="Git"></img>
-                        <img className="img-logo-leng" loading="lazy" src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" alt="C#"></img>
-                        <img className="img-logo-leng" loading="lazy" src="https://4.bp.blogspot.com/-rtNRVM3aIvI/XJX_U07Z-II/AAAAAAAAJXY/YpdOo490FTgdKOxM4qDG-2-EzcNFAWkKACK4BGAYYCw/s1600/logo%2Bfirebase%2Bicon.png" alt="Firebase"></img>
-                        <img className="img-logo-leng" loading="lazy" src="https://www.programandoamedianoche.com/wp-content/uploads/2008/09/asp.net_.logo_.png" alt="ASP.net"></img>
+                    <div className="container-habilidades">
+                        <div className="container-header-habilidades">
+                            <div className="container-logo-leng">
+                                <img className="img-logo-leng" loading="lazy" src="https://cdn-icons-png.flaticon.com/512/5968/5968332.png" alt="Php"></img>
+                            </div>
+                            <div className="container-logo-leng">
+                                <img className="img-logo-leng" loading="lazy" src={reactlogo} alt="React"></img>                            
+                            </div>
+                        </div>
+                        <div className="container-body-habilidades">
+                            <div className="container-logo-leng">
+                                <img className="img-logo-leng" loading="lazy" src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" alt="Html"></img>
+                            </div>
+                            <div className="container-logo-leng">
+                                <img className="img-logo-leng" loading="lazy" src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="Css"></img>
+                            </div>
+                            <div className="container-logo-leng">
+                                <img className="img-logo-leng" loading="lazy" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="Js"></img>
+                            </div>
+                            <div className="container-logo-leng">
+                                <img className="img-logo-leng" loading="lazy" src="https://blog.artegrafico.net/wp-content/uploads/2019/02/jQuery-logo.png" alt="Jquery"></img>
+                            </div>
+                            <div className="container-logo-leng">
+                                <img className="img-logo-leng" loading="lazy" src="https://cdn-icons-png.flaticon.com/512/5968/5968364.png" alt="Sql Server"></img>
+                            </div>
+                            <div className="container-logo-leng">
+                                <img className="img-logo-leng" loading="lazy" src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" alt="MySql"></img>
+                            </div>
+                            <div className="container-logo-leng">
+                                <img className="img-logo-leng" loading="lazy" src="https://cdn-icons.flaticon.com/png/512/4494/premium/4494740.png?token=exp=1635621354~hmac=0c59d2f6b30d941fc627457f319552d6" alt="Git"></img>
+                            </div>
+                            <div className="container-logo-leng">
+                                <img className="img-logo-leng" loading="lazy" src="https://cdn-icons-png.flaticon.com/512/358/358879.png" alt="C#"></img>
+                            </div>
+                            <div className="container-logo-leng">
+                                <img className="img-logo-leng" loading="lazy" src="https://4.bp.blogspot.com/-rtNRVM3aIvI/XJX_U07Z-II/AAAAAAAAJXY/YpdOo490FTgdKOxM4qDG-2-EzcNFAWkKACK4BGAYYCw/s1600/logo%2Bfirebase%2Bicon.png" alt="Firebase"></img>
+                            </div>
+                            <div className="container-logo-leng">
+                                <img className="img-logo-leng" loading="lazy" src="https://cdn-icons-png.flaticon.com/512/402/402184.png" alt="ASP.net"></img>                            
+                            </div>
+                        </div>
                     </div>
                     <p>Nivel de Ingles basico</p>
                     <p>Aparte de aprender más a fondo las tecnologías con las que trabajo también tengo pendiente aprender:</p>
+                    <h2>Sobre mi</h2>
+                    <p></p>
+                    
                 </div>
             </div>
             <footer>
