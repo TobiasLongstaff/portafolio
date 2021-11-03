@@ -4,7 +4,7 @@ import './Navegacion.css'
 const Navegacion = () =>
 (
     <nav>
-        <h1>Tobias Longstaff</h1>
+        <label className="titulo-nav">Tobias Longstaff</label>
         <div className="container-btn">
             <button className="btn-nav-secundarios">Proyectos</button>
             <button className="btn-nav-secundarios">Sobre mi</button>

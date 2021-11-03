@@ -18,7 +18,7 @@ body
     font-family: 'Nunito';
     color: var(--fondo2);
     /* background-color: var(--font); */
-    background: url('https://image.freepik.com/vector-gratis/vector-fondo-patron-geometrico-blanco_53876-126684.jpg');
+    /* background: url('https://image.freepik.com/vector-gratis/vector-fondo-patron-geometrico-blanco_53876-126684.jpg'); */
     /* background-size: cover;
     background-position: center;*/
     width: 100%;
@@ -27,17 +27,18 @@ body
 
 .container-app
 {
-    margin-top: 8%;
     display: flex;
     justify-content: center;
+    height: calc(100vh - 70px);
+    align-items: center;
 }
 
 .container-sistema
 {
-    padding: 0 5%;
     padding-bottom: 5%;
     height: calc(50vh - 34px);
     text-align: center;
+    position: relative;
 }
 
 .container-proyectos
@@ -49,19 +50,35 @@ body
 
 .container-info-sistem
 {
-    /* display: none; */
     position: absolute;
     color: white;
     display: flex;
     background-color: #130f40cf;
 }
 
-.container-header-habilidades
+.container-info
+{
+    display: flex;
+    justify-content: center;
+}
+
+.container-max
+{
+    margin-top: 100px;
+    max-width: 972px;
+}
+
+.container-header-habilidades, .container-habilidades-por-aprender
 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 60px;
+    margin-bottom: 20px;
+}
 
+.container-habilidades
+{
+    max-height: 450px;
 }
 
 .container-header-habilidades img
@@ -77,6 +94,13 @@ body
 
 }
 
+.container-scroll-mouse
+{
+    position: relative;
+    text-align: center;
+    bottom: -130px;
+}
+
 .container-logo-leng
 {
     width: 100%;
@@ -84,10 +108,50 @@ body
     justify-content: center;
 }
 
+.container-text-sobre-mi
+{
+    box-sizing: border-box;
+}
+
+.container-mouse
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container-img-logo-sist
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.container-links-sist
+{
+    text-align: center;
+    border-right: 3px solid white;
+    width: 220px;
+}
+
+.container-info-sist
+{
+    display: flex;
+    gap: 10px;
+}
+
+h1
+{
+    font-size: 50px;
+    color: var(--principal);
+}
+
 h2
 {
+    margin: 0;
     font-size: 40px;
     color: var(--principal);
+    text-align: center;
 }
 
 h3
@@ -121,7 +185,7 @@ h3
 
 p
 {
-    font-size: 22px;
+    font-size: 26px;
     margin-top: 60px;
 }
 
@@ -144,6 +208,7 @@ p
     border-radius: 50%;
     border: 7px solid var(--principal);
     position: absolute;
+    width: 200px;
 }
 
 .img-logo-leng
@@ -156,4 +221,426 @@ p
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+.titulo-bienvenida
+{
+    width: 590px;
+    animation: escribir 2s steps(26), parpadeo .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
+
+span
+{
+	color: var(--font2);
+	animation: colorText 5s ease-out infinite, nudgeText 5s ease-out infinite;
+}
+
+.mouse 
+{
+	background: var(--principal) linear-gradient(transparent 0%, transparent 50%, #fff 50%, #fff 100%);
+	position: relative;
+	width: 52px;
+	height: 88px;
+	border-radius: 100px;
+	background-size: 100% 200%;
+	animation: colorSlide 5s linear infinite, nudgeMouse 5s ease-out infinite;
+}
+
+.mouse:before, .mouse:after 
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+.mouse:before 
+{
+	width: 46px;
+	height: 82px;
+	background-color: white;
+	border-radius: 100px;
+}
+
+.mouse:after 
+{
+	background-color: var(--principal);
+	width: 10px;
+	height: 10px; 
+	border-radius: 100%;
+	animation: trackBallSlide 5s linear infinite;
+}
+
+.link-repo
+{
+    cursor: pointer;
+    width: 190px;
+    margin-bottom: 10px;
+    color: var(--font);
+    text-decoration: none;
+    background: transparent;
+    border: 3px solid var(--font);
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: 'Nunito';
+}
+
+figure
+{
+    padding: 0 5%;
+    margin: 0;
+}
+
+.capa
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #171046c2;
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.container-sistema:hover > .capa 
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+.container-sistema:hover > .capa h3
+{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.container-sistema .capa h3
+{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+    margin-top: 30px;
+}
+
+.container-sistema .capa p
+{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+@keyframes top 
+{
+    0% 
+    {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    
+    100% 
+    {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes escribir 
+{
+    from 
+    {
+        width: 0;
+    }
+}
+      
+@keyframes parpadeo 
+{
+    50% 
+    {
+      border-color: transparent;
+    }
+}
+
+@keyframes colorSlide 
+{
+	0% 
+    {
+		background-position: 0% 100%;
+	}
+
+	20% 
+    {
+		background-position: 0% 0%;
+	}
+
+	21% 
+    {
+		background-color: var(--principal);
+        
+	}
+
+	29.99% 
+    {
+		background-color: #fff;
+		background-position: 0% 0%;
+	}
+
+	30% 
+    {
+		background-color: var(--principal);
+		background-position: 0% 100%;
+	}
+
+	50% 
+    {
+		background-position: 0% 0%;
+	}
+
+	51% 
+    {
+		background-color: var(--principal);
+	}
+
+	59% 
+    {
+		background-color: #fff;
+		background-position: 0% 0%;
+	}
+	 
+    60% 
+    {
+		background-color: var(--principal);
+		background-position: 0% 100%;
+	}
+
+	80% 
+    {
+		background-position: 0% 0%;
+	}
+
+	81% 
+    {
+		background-color: var(--principal);
+	}
+
+	90%, 100% 
+    {
+		background-color: #fff;
+	}
+}
+
+@keyframes trackBallSlide 
+{
+	0% 
+    {
+		opacity: 1;
+		transform: scale(1) translateY(-20px);
+	}
+
+	6% 
+    {
+		opacity: 1;
+		transform: scale(0.9) translateY(5px);
+	}
+
+	14% 
+    {
+		opacity: 0;
+		transform: scale(0.4) translateY(40px);
+	}
+
+	15%, 19% 
+    {
+		opacity: 0;
+		transform: scale(0.4) translateY(-20px);
+	}
+
+	28%, 29.99% 
+    {
+		opacity: 1;
+		transform: scale(1) translateY(-20px);
+	}
+
+	30% 
+    {
+		opacity: 1;
+		transform: scale(1) translateY(-20px);
+	}
+
+	36% 
+    {
+		opacity: 1;
+		transform: scale(0.9) translateY(5px);
+	}
+
+	44% 
+    {
+		opacity: 0;
+		transform: scale(0.4) translateY(40px);
+	}
+
+	45%, 49% 
+    {
+		opacity: 0;
+		transform: scale(0.4) translateY(-20px);
+	}
+
+	58%, 59.99% 
+    {
+		opacity: 1;
+		transform: scale(1) translateY(-20px);
+	}
+
+	60% 
+    {
+		opacity: 1;
+		transform: scale(1) translateY(-20px);
+	}
+
+	66% 
+    {
+		opacity: 1;
+		transform: scale(0.9) translateY(5px);
+	}
+
+	74% 
+    {
+		opacity: 0;
+		transform: scale(0.4) translateY(40px);
+	}
+
+	75%, 79% 
+    {
+		opacity: 0;
+		transform: scale(0.4) translateY(-20px);
+	}
+
+	88%, 100% 
+    {
+		opacity: 1;
+		transform: scale(1) translateY(-20px);
+	}
+}
+ @keyframes nudgeMouse 
+{
+	0% 
+    {
+		transform: translateY(0);
+	}
+
+	20% 
+    {
+		transform: translateY(8px);
+	}
+
+	30% 
+    {
+		transform: translateY(0);
+	}
+
+	50% 
+    {
+		transform: translateY(8px);
+	}
+
+	60% 
+    {
+		transform: translateY(0);
+	}
+
+	80% 
+    {
+		transform: translateY(8px);
+	}
+
+	90% 
+    {
+		transform: translateY(0);
+	}
+}
+
+@keyframes nudgeText 
+{
+	0% 
+    {
+		transform: translateY(0);
+	}
+
+	20% 
+    {
+		transform: translateY(2px);
+	}
+
+	30% 
+    {
+		transform: translateY(0);
+	}
+
+	50% 
+    {
+		transform: translateY(2px);
+	}
+
+	60% 
+    {
+		transform: translateY(0);
+	}
+
+	80% 
+    {
+		transform: translateY(2px);
+	}
+
+	90% 
+    {
+		transform: translateY(0);
+	}
+}
+
+@keyframes colorText 
+{
+	21% 
+    {
+		color: var(--principal);
+	}
+
+	30% 
+    {
+		color: #fff;
+	}
+
+	51% 
+    {
+		color: var(--principal);
+	}
+
+	60% 
+    {
+		color: #fff;
+	}
+
+	81% 
+    {
+		color: var(--principal);
+	}
+
+	90% 
+    {
+		color: #fff;
+	}
 }
