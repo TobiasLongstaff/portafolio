@@ -25,6 +25,19 @@ body
     height: 100vh; 
 }
 
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 20px;
+}
+
+header h3
+{
+    margin: 0;
+}
+
 .container-app
 {
     display: flex;
@@ -35,7 +48,7 @@ body
 
 .container-sistema
 {
-    padding-bottom: 5%;
+    padding: 5% 0;
     height: calc(50vh - 34px);
     text-align: center;
     position: relative;
@@ -78,7 +91,7 @@ body
 
 .container-habilidades
 {
-    max-height: 450px;
+    height: 450px;
 }
 
 .container-header-habilidades img
@@ -140,6 +153,65 @@ body
     gap: 10px;
 }
 
+.container-redes
+{
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+}
+
+.container-habilidades-info
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container-fondo-codigo
+{
+    border-radius: 10px;
+    background-color: var(--font2);
+    height:calc(100% - 20px);
+    margin-top: 60px;
+    margin-right: 65px;
+}
+
+.container-sobre-mi-data
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.container-sobre-mi
+{
+    height: 100vh;
+}
+
+.container-codigo
+{
+    position: absolute;
+    top: 90px;
+    left: 530px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 50%);
+    color: var(--font);
+    height: 200px;
+    background-color: #34383d;
+    border-radius: 10px;
+    width: 390px;
+}
+
+.op-2
+{
+    top: 270px;
+    left: 510px;
+}
+
+.op-3
+{
+    top: 460px;
+    left: 530px;
+}
+
 h1
 {
     font-size: 50px;
@@ -157,6 +229,7 @@ h2
 h3
 {
     color: var(--font);
+    margin-top: 0;
 }
 
 .num-1
@@ -232,10 +305,21 @@ p
     border-right: 3px solid;
 }
 
-span
+.escritura-codigo
+{
+    width: 280px;
+    font-size: 13px;
+    margin: 0;
+    animation: escribir 2s steps(39), parpadeo .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
+
+.scroll-text
 {
 	color: var(--font2);
-	animation: colorText 5s ease-out infinite, nudgeText 5s ease-out infinite;
+	animation: colorText2 5s ease-out infinite, nudgeText 5s ease-out infinite;
 }
 
 .mouse 
@@ -344,6 +428,43 @@ figure
     max-width: 220px;
     margin: auto;
 }
+
+.link-cont:hover
+{
+    transform: scale(1.1);
+    transition: .2s ease all;
+}
+
+.tab
+{
+    padding-left: 2rem;
+}
+
+.container-codigo-color
+{
+    padding: 10px;
+    padding-top: 0;
+}
+
+.codigo-color-principal
+{
+    color: var(--font2);
+	animation: colorText 5s ease-out infinite, nudgeText 5s ease-out infinite;
+}
+
+.codigo-color-secundario
+{
+    color: var(--font2);
+	animation: colorText2 5s ease-out infinite, nudgeText 5s ease-out infinite;
+}
+
+.codigo-color-terciario
+{
+    color: var(--font2);
+	animation: colorText3 5s ease-out infinite, nudgeText 5s ease-out infinite;
+}
+
+
 
 @keyframes top 
 {
@@ -637,6 +758,72 @@ figure
 	81% 
     {
 		color: var(--principal);
+	}
+
+	90% 
+    {
+		color: #fff;
+	}
+}
+
+@keyframes colorText2
+{
+	21% 
+    {
+		color: #9a8fed;
+	}
+
+	30% 
+    {
+		color: #fff;
+	}
+
+	51% 
+    {
+		color: #9a8fed;
+	}
+
+	60% 
+    {
+		color: #fff;
+	}
+
+	81% 
+    {
+		color: #9a8fed;
+	}
+
+	90% 
+    {
+		color: #fff;
+	}
+}
+
+@keyframes colorText3
+{
+	21% 
+    {
+		color: #12f35d;
+	}
+
+	30% 
+    {
+		color: #fff;
+	}
+
+	51% 
+    {
+		color: #12f35d;
+	}
+
+	60% 
+    {
+		color: #fff;
+	}
+
+	81% 
+    {
+		color: #12f35d;
 	}
 
 	90% 
