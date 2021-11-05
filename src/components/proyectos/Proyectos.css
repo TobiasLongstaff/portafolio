@@ -1,0 +1,30 @@
+
+.container-proyectos
+{
+    height: 100%;
+    margin: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.img-sist
+{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px #161616bf;
+}
+
+.img-logo-leng
+{
+    width: 100px;
+}
+
+figure
+{
+    display: flex;
+    padding: 0 5%;
+    margin: 0;
+    height: calc(100% - 26px - 5%);
+    align-items: center;
+    justify-content: center;
+}

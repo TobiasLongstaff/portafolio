@@ -1,0 +1,12 @@
+
+.container-logo-leng
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-logo-leng
+{
+	object-fit: contain;
+}

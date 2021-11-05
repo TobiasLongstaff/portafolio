@@ -1,6 +1,7 @@
 import React from 'react'
 import { Animator, Fade } from 'react-scroll-motion'
 import { UilAngleDown} from '@iconscout/react-unicons'
+import './SobreMi.css'
 
 const SobreMi = () =>
 (

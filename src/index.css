@@ -17,10 +17,6 @@ body
     margin: 0;
     font-family: 'Nunito';
     color: var(--fondo2);
-    /* background-color: var(--font); */
-    /* background: url('https://image.freepik.com/vector-gratis/vector-fondo-patron-geometrico-blanco_53876-126684.jpg'); */
-    /* background-size: cover;
-    background-position: center;*/
     width: 100%;
     height: 100vh; 
 }
@@ -46,21 +42,6 @@ header h3
     align-items: center;
 }
 
-.container-sistema
-{
-    padding: 5% 0;
-    height: calc(50vh - 34px);
-    text-align: center;
-    position: relative;
-}
-
-.container-proyectos
-{
-    margin: 0 10%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
 .container-info-sistem
 {
     position: absolute;
@@ -81,30 +62,9 @@ header h3
     max-width: 972px;
 }
 
-.container-header-habilidades, .container-habilidades-por-aprender
-{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0 60px;
-    margin-bottom: 20px;
-}
-
 .container-habilidades
 {
     height: 450px;
-}
-
-.container-header-habilidades img
-{
-    width: 140px;
-}
-
-.container-body-habilidades
-{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 30% 10%;
-
 }
 
 .container-scroll-mouse
@@ -114,18 +74,6 @@ header h3
     bottom: -130px;
 }
 
-.container-logo-leng
-{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.container-text-sobre-mi
-{
-    box-sizing: border-box;
-}
-
 .container-mouse
 {
     display: flex;
@@ -133,83 +81,11 @@ header h3
     margin-bottom: 20px;
 }
 
-.container-img-logo-sist
-{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.container-links-sist
-{
-    text-align: center;
-    border-right: 3px solid white;
-    width: 220px;
-}
-
-.container-info-sist
-{
-    display: flex;
-    gap: 10px;
-}
-
 .container-redes
 {
     display: flex;
     justify-content: center;
     gap: 49px;
-}
-
-.container-habilidades-info
-{
-    text-align: center;
-    margin-top: 30px;
-}
-
-.container-fondo-codigo
-{
-    border-radius: 10px;
-    background-color: var(--font2);
-    height:calc(100% - 20px);
-    margin-top: 60px;
-    margin-right: 65px;
-}
-
-.container-sobre-mi-data
-{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
-
-.container-sobre-mi
-{
-    height: 100vh;
-}
-
-.container-codigo
-{
-    position: absolute;
-    top: 90px;
-    left: 530px;
-    box-shadow: 0 4px 30px rgb(0 0 0 / 50%);
-    color: var(--font);
-    height: 200px;
-    background-color: #34383d;
-    border-radius: 10px;
-    width: 390px;
-}
-
-.op-2
-{
-    top: 270px;
-    left: 510px;
-}
-
-.op-3
-{
-    top: 460px;
-    left: 530px;
 }
 
 h1
@@ -230,30 +106,7 @@ h3
 {
     color: var(--font);
     margin-top: 0;
-}
-
-.num-1
-{
-    border-top-left-radius: 5px;
-    background-color: #686de0;
-}
-
-.num-2
-{
-    border-top-right-radius: 5px;
-    background-color: #30336b;
-}
-
-.num-3
-{
-    border-bottom-left-radius: 5px;
-    background-color: #4834d4;
-}
-
-.num-4
-{
-    border-bottom-right-radius: 5px;
-    background-color: #130f40;
+	margin-bottom: 19px;
 }
 
 p
@@ -262,31 +115,12 @@ p
     margin-top: 60px;
 }
 
-.img-sist
-{
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: 0px 0px 20px 0px #161616bf;
-}
-
-.img-sist-app
-{
-    max-height: 375px;  
-    border-radius: 5px;
-    box-shadow: 0px 0px 20px 0px #161616bf;
-}
-
 .img-mi-foto
 {
     border-radius: 50%;
     border: 7px solid var(--principal);
     position: absolute;
     width: 200px;
-}
-
-.img-logo-leng
-{
-    width: 100px;
 }
 
 .btn-mas-info-sist
@@ -300,17 +134,6 @@ p
 {
     width: 590px;
     animation: escribir 2s steps(26), parpadeo .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-}
-
-.escritura-codigo
-{
-    width: 280px;
-    font-size: 13px;
-    margin: 0;
-    animation: escribir 2s steps(39), parpadeo .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -361,110 +184,11 @@ p
 	animation: trackBallSlide 5s linear infinite;
 }
 
-.link-repo
-{
-    cursor: pointer;
-    width: 190px;
-    margin-bottom: 10px;
-    color: var(--font);
-    text-decoration: none;
-    background: transparent;
-    border: 3px solid var(--font);
-    border-radius: 20px;
-    padding: 5px 10px;
-    font-size: 20px;
-    font-family: 'Nunito';
-}
-
-figure
-{
-    padding: 0 5%;
-    margin: 0;
-}
-
-.capa
-{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: #171046c2;
-    transition: all 400ms ease-out;
-    opacity: 0;
-    visibility: hidden;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-
-.container-sistema:hover > .capa 
-{
-    opacity: 1;
-    visibility: visible;
-}
-
-.container-sistema:hover > .capa h3
-{
-    margin-top: 70px;
-    margin-bottom: 15px;
-}
-
-.container-sistema .capa h3
-{
-    color: #fff;
-    font-weight: 400;
-    margin-bottom: 120px;
-    transition: all 400ms ease-out;
-    margin-top: 30px;
-}
-
-.container-sistema .capa p
-{
-    color: #fff;
-    font-size: 15px;
-    line-height: 1.5;
-    width: 100%;
-    max-width: 220px;
-    margin: auto;
-}
-
 .link-cont:hover
 {
     transform: scale(1.1);
     transition: .2s ease all;
 }
-
-.tab
-{
-    padding-left: 2rem;
-}
-
-.container-codigo-color
-{
-    padding: 10px;
-    padding-top: 0;
-}
-
-.codigo-color-principal
-{
-    color: var(--font2);
-	animation: colorText 5s ease-out infinite, nudgeText 5s ease-out infinite;
-}
-
-.codigo-color-secundario
-{
-    color: var(--font2);
-	animation: colorText2 5s ease-out infinite, nudgeText 5s ease-out infinite;
-}
-
-.codigo-color-terciario
-{
-    color: var(--font2);
-	animation: colorText3 5s ease-out infinite, nudgeText 5s ease-out infinite;
-}
-
-
 
 @keyframes top 
 {
@@ -831,3 +555,4 @@ figure
 		color: #fff;
 	}
 }
+

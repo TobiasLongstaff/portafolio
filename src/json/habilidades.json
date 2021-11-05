@@ -1,0 +1,44 @@
+[    
+    {    
+        "icono": "https://cdn-icons-png.flaticon.com/512/5968/5968313.png",
+        "leng": "MySql"
+    },
+    {    
+        "icono": "https://blog.artegrafico.net/wp-content/uploads/2019/02/jQuery-logo.png",
+        "leng": "Jquery"
+    },
+    {    
+        "icono": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
+        "leng": "CSS"
+    },
+    {    
+        "icono": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
+        "leng": "JS"
+    },
+    {    
+        "icono": "https://4.bp.blogspot.com/-rtNRVM3aIvI/XJX_U07Z-II/AAAAAAAAJXY/YpdOo490FTgdKOxM4qDG-2-EzcNFAWkKACK4BGAYYCw/s1600/logo%2Bfirebase%2Bicon.png",
+        "leng": "Firebase"
+    },
+    {    
+        "icono": "https://cdn-icons-png.flaticon.com/512/358/358879.png",
+        "leng": "C#"
+    },
+    {    
+        "icono": "https://cdn-icons-png.flaticon.com/512/52/52234.png",
+        "leng": "Git"
+    },
+    {    
+        "icono": "https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+        "leng": "HTML"
+    },
+    {    
+        "icono": "https://cdn-icons-png.flaticon.com/512/5968/5968364.png",
+        "leng": "Sql Server"
+    },
+    {    
+        "icono": "https://cdn-icons-png.flaticon.com/512/402/402184.png",
+        "leng": "ASP.net"
+    }
+    
+    
+]

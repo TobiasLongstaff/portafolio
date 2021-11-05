@@ -1,0 +1,22 @@
+
+.link-repo
+{
+    cursor: pointer;
+    width: 190px;
+    margin-bottom: 10px;
+    color: var(--font);
+    text-decoration: none;
+    background: transparent;
+    border: 3px solid var(--font);
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: 'Nunito';
+    
+}
+
+.link-repo:hover
+{
+    transform: scale(1.05);
+    transition: .2s ease all;
+}

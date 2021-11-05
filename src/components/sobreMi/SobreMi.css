@@ -1,0 +1,90 @@
+.container-sobre-mi-data
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.container-sobre-mi
+{
+    height: 100vh;
+}
+
+.container-text-sobre-mi
+{
+    box-sizing: border-box;
+}
+
+.container-fondo-codigo
+{
+    border-radius: 10px;
+    background-color: var(--font2);
+    height:calc(100% - 20px);
+    margin-top: 60px;
+    margin-right: 65px;
+}
+
+.container-codigo
+{
+    position: absolute;
+    top: 90px;
+    left: 530px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 50%);
+    color: var(--font);
+    height: 200px;
+    background-color: #34383d;
+    border-radius: 10px;
+    width: 390px;
+}
+
+.container-codigo-color
+{
+    padding: 10px;
+    padding-top: 0;
+}
+
+.codigo-color-principal
+{
+    color: var(--font2);
+	animation: colorText 5s ease-out infinite, nudgeText 5s ease-out infinite;
+}
+
+.codigo-color-secundario
+{
+    color: var(--font2);
+	animation: colorText2 5s ease-out infinite, nudgeText 5s ease-out infinite;
+}
+
+.codigo-color-terciario
+{
+    color: var(--font2);
+	animation: colorText3 5s ease-out infinite, nudgeText 5s ease-out infinite;
+}
+
+.tab
+{
+    padding-left: 2rem;
+}
+
+.escritura-codigo
+{
+    width: 280px;
+    font-size: 13px;
+    margin: 0;
+    animation: escribir 5s steps(39), parpadeo .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
+
+.op-2
+{
+    top: 270px;
+    left: 510px;
+}
+
+.op-3
+{
+    top: 460px;
+    left: 530px;
+}

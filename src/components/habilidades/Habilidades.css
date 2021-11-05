@@ -1,0 +1,26 @@
+.container-habilidades-info
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container-header-habilidades, .container-habilidades-por-aprender
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 60px;
+    margin-bottom: 20px;
+}
+
+.container-header-habilidades img
+{
+	object-fit: contain;
+    width: 140px;
+}
+
+.container-body-habilidades
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30% 10%;
+}

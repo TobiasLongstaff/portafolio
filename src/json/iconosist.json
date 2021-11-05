@@ -1,0 +1,63 @@
+[    
+    {   
+        "id":"1",
+        "icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
+        "leng": "logo react"
+    },
+    {    
+        "id":"1",
+        "icono": "https://cdn-icons-png.flaticon.com/512/402/402184.png",
+        "leng": "ASP.net"
+    },
+    {    
+        "id":"1",
+        "icono": "https://cdn-icons-png.flaticon.com/512/5968/5968364.png",
+        "leng": "Sql Server"
+    },
+    {   
+        "id":"2",
+        "icono": "https://cdn-icons-png.flaticon.com/512/5968/5968332.png",
+        "leng": "Php"
+    },
+    {    
+        "id":"2",
+        "icono": "https://blog.artegrafico.net/wp-content/uploads/2019/02/jQuery-logo.png",
+        "leng": "Jquery"
+    },
+    {    
+        "id":"2",
+        "icono": "https://cdn-icons-png.flaticon.com/512/5968/5968313.png",
+        "leng": "MySql"
+    },
+    {   
+        "id":"3",
+        "icono": "https://cdn-icons-png.flaticon.com/512/5968/5968332.png",
+        "leng": "Php"
+    },
+    {    
+        "id":"3",
+        "icono": "https://blog.artegrafico.net/wp-content/uploads/2019/02/jQuery-logo.png",
+        "leng": "Jquery"
+    },
+    {    
+        "id":"3",
+        "icono": "https://cdn-icons-png.flaticon.com/512/5968/5968313.png",
+        "leng": "MySql"
+    },
+    {   
+        "id":"4",
+        "icono": "https://cdn-icons-png.flaticon.com/512/5968/5968332.png",
+        "leng": "Php"
+    },
+    {    
+        "id":"4",
+        "icono": "https://blog.artegrafico.net/wp-content/uploads/2019/02/jQuery-logo.png",
+        "leng": "Jquery"
+    },
+    {    
+        "id":"4",
+        "icono": "https://cdn-icons-png.flaticon.com/512/5968/5968313.png",
+        "leng": "MySql"
+    }
+
+]
