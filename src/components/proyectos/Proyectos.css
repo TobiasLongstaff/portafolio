@@ -16,7 +16,7 @@
 
 .img-logo-leng
 {
-    width: 100px;
+    width: 100%;
 }
 
 figure
@@ -27,4 +27,65 @@ figure
     height: calc(100% - 26px - 5%);
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 1400px)
+{
+    .container-proyectos
+    {
+        margin: 0 5%;
+    }
+
+    figure
+    {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 1219px)
+{
+    .container-proyectos
+    {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1090px)
+{
+    .img-sist
+    {
+        width: 100%;
+    }
+
+    .link-repo
+    {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 815px)
+{
+    .container-sistema
+    {
+        width: 100vw;
+    }
+
+    .container-proyectos
+    {
+        display: flex;
+        overflow-x: auto;
+    }
+
+    figure
+    {
+        margin: 0 10%;
+    }
+}
+
+@media screen and (max-width: 430px)
+{
+    figure
+    {
+        margin: 0 2%;
+    }
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 import { Animator, MoveIn } from 'react-scroll-motion'
-import { UilGithub } from '@iconscout/react-unicons'
 import proyectos from '../../json/proyectos.json'
 import BtnLinkRepo from '../btnlinkrepo/BtnLinkRepo'
 import IcoLeng from '../ico-leng/IcoLeng'
 import dataLeng from '../../json/iconosist.json'
+import BtnLink from '../btnlink/BtnLink'
 import './CardSis.css'
 
 const CardSis = () =>
@@ -19,13 +19,13 @@ const CardSis = () =>
                                 <h3>{proyecto.nombre}</h3>
                             </div>
                             <figure>
-                                <img className="img-sist-app" loading="lazy" src={proyecto.img} alt={proyecto.nombre}></img>
+                                <img className={proyecto.class} loading="lazy" src={proyecto.img} alt={proyecto.nombre}></img>
                             </figure>
                             <div className="capa">
                                 <div className="container-info-sist">
                                     <div className="container-links-sist">
-                                        <UilGithub size="100" color="white"/>
                                         <BtnLinkRepo id={proyecto.id}/>
+                                        <BtnLink link={proyecto.link} nombre={proyecto.nombre}/>
                                     </div>
                                     <div>
                                         <div className="container-img-logo-sist">

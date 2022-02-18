@@ -1,5 +1,5 @@
 
-.link-repo
+.link
 {
     cursor: pointer;
     margin-bottom: 10px;
@@ -13,8 +13,17 @@
     width: auto;
 }
 
-.link-repo:hover
+.link:hover
 {
     transform: scale(1.05);
     transition: .2s ease all;
+}
+
+@media screen and (max-width: 890px)
+{
+    .link
+    {
+        width: 160px;
+        font-size: 16px;
+    }
 }

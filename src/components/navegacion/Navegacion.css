@@ -61,3 +61,33 @@ nav
     transform: scale(1.1);
     transition: .2s ease all;
 }
+
+@media screen and (max-width: 760px)
+{
+	nav
+	{
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 476px)
+{
+    .btn-nav-secundarios, .btn-nav-principal
+    {
+        font-size: 13px;
+        width: 100px;
+    }    
+}
+
+@media screen and (max-width: 415px)
+{
+    .btn-nav-secundarios, .btn-nav-principal
+    {
+        width: 80px;
+    }
+
+    .btn-nav-principal
+    {
+        padding: 1% 0;
+    }
+}

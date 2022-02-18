@@ -24,3 +24,17 @@
     grid-template-columns: repeat(5, 1fr);
     gap: 30% 10%;
 }
+
+@media screen and (max-width: 610px)
+{
+    .container-max
+    {
+        max-width: 300px;
+    }
+
+    .container-header-habilidades, .container-body-habilidades
+    {
+        grid-template-columns: repeat(1, 1fr);
+        overflow: auto;
+    }
+}

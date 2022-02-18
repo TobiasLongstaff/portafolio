@@ -50,6 +50,11 @@ header h3
     background-color: #130f40cf;
 }
 
+.container-bienvenida
+{
+	max-width: 972px;
+}
+
 .container-info
 {
     display: flex;
@@ -88,6 +93,22 @@ header h3
     gap: 49px;
 }
 
+.container-texto-bienvenida
+{
+	margin-bottom: 20px;
+}
+
+.container-img-bienvenida
+{
+	display: flex;
+}
+
+.container-text-img
+{
+	display: flex;
+	align-items: end;
+}
+
 h1
 {
     font-size: 50px;
@@ -119,8 +140,9 @@ p
 {
     border-radius: 50%;
     border: 7px solid var(--principal);
-    position: absolute;
-    width: 200px;
+    /* position: absolute; */
+    min-width: 200px;
+	height: 200px;
 }
 
 .btn-mas-info-sist
@@ -188,6 +210,11 @@ p
 {
     transform: scale(1.1);
     transition: .2s ease all;
+}
+
+.text-bienvenida
+{
+	margin: 0;
 }
 
 @keyframes top 
@@ -556,3 +583,153 @@ p
 	}
 }
 
+@media screen and (max-width: 1024px)
+{
+	.container-bienvenida
+	{
+		max-width: 890px;
+	}
+
+	p
+	{
+		font-size: 23px;
+	}
+}
+
+@media screen and (max-width: 939px)
+{
+	.container-bienvenida
+	{
+		max-width: 800px;
+	}
+
+	.titulo-bienvenida
+	{
+		font-size: 40px;
+		width: 480px;
+	}
+
+	.img-mi-foto
+	{
+		min-width: 170px;
+		height: 170px;
+	}
+
+	p
+	{
+		font-size: 21px;
+	}
+}
+
+@media screen and (max-width: 850px)
+{
+	.container-bienvenida
+	{
+		max-width: 700px;
+	}
+
+	p
+	{
+		font-size: 18px;
+	}
+
+	.img-mi-foto
+	{
+		min-width: 150px;
+		height: 150px;
+	}
+
+	.container-scroll-mouse
+	{
+		bottom: -80px;
+	}
+}
+
+@media screen and (max-width: 760px)
+{
+	.container-bienvenida
+	{
+		max-width: 600px;
+	}
+
+	.titulo-bienvenida
+	{
+		font-size: 36px;
+		width: 430px;
+	}
+
+	.img-mi-foto
+	{
+		min-width: 140px;
+		height: 140px;
+	}
+
+	p
+	{
+		font-size: 15.5px;
+	}
+
+	.titulo-nav
+	{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 650px)
+{
+	.container-bienvenida
+	{
+		max-width: 500px;
+	}
+
+	.titulo-bienvenida
+	{
+		font-size: 27px;
+		width: 320px;
+	}
+
+	.img-mi-foto
+	{
+		min-width: 120px;
+		height: 120px;
+		border: 5px solid var(--principal);
+	}
+}
+
+@media screen and (max-width: 512px)
+{
+	.container-bienvenida
+	{
+		max-width: 450px;
+	}
+}
+
+@media screen and (max-width: 476px)
+{
+	.container-bienvenida
+	{
+		max-width: 320px;
+	}
+
+	.container-app
+	{
+		padding-top: 140px;
+		align-items: baseline;
+	}
+
+	.container-img-mifoto
+	{
+		position: absolute;
+		top: 10px;
+		right: 0px;
+		width: 100%;
+		display: flex;
+		justify-content: center
+	}
+
+	.container-scroll-mouse
+	{
+		bottom: -20px;
+	}
+}

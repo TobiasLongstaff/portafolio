@@ -3,28 +3,36 @@
         "id":"1",
         "nombre":"App Argall",
         "img":"https://media2.giphy.com/media/3Xrxqry193wcDakOzC/giphy.gif?cid=790b761124e220564a5d8f956de84b987e98d488e3a4033e&rid=giphy.gif&ct=g",
-        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, vero!",
-        "scroll":"-1000"
+        "descripcion":"Esta es una aplicación que esta diseñada para utilizarse en una handheld. Permite escanear códigos de cajas para registrarlas en pallets y más opciones.",
+        "scroll":"-1000",
+        "class":"img-sist-app",
+        "link":"no"
     },
     {
         "id":"2",
         "nombre":"Sentidos Activos",
         "img":"https://media4.giphy.com/media/nATlylACjEP85qhOiP/giphy.gif?cid=790b76115c915521918fb3740d683510b2d00d1380ef55ec&rid=giphy.gif&ct=g",
-        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, vero!",
-        "scroll":"1000"
+        "descripcion":"Este es un e commerce el cual fue diseñado para vender productos para niños tiene una estética minimalista la cual ayuda al usuario a utilizarlo con facilidad.",
+        "scroll":"1000",
+        "class":"img-sist",
+        "link":"https://sentidosactivos.com/"
     },
     {
         "id":"3",
         "nombre":"Drive Comercial",
         "img":"https://media4.giphy.com/media/YxWEaIFzCrmXebwPIb/giphy.gif",
-        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, vero!",
-        "scroll":"-2500"
+        "descripcion":"Este es un sistema más para uso corporativo, fue diseñado para compartir archivos a clientes de la manera fácil posible, notificar con mail al subirse modificaciones etc.",
+        "scroll":"-2500",
+        "class":"img-sist",
+        "link":"https://drivecomercial.com/"
     },
     {
         "id":"4",
         "nombre":"Viewing Management",
         "img":"https://media4.giphy.com/media/Iu7gFzhJTWxv37Agvo/giphy.gif?cid=790b7611dd8d25adf4b6415caef2e20359605017728dd194&rid=giphy.gif&ct=g",
-        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, vero!",
-        "scroll":"2500"
+        "descripcion":"El sistema viewing esta diseñado para registrar el ingreso de personal. registra todas las entradas, salidas, escanea sus DNI e imprime tarjetas y tickets al ingresar",
+        "scroll":"2500",
+        "class":"img-sist",
+        "link":"https://viewingmanagement.com/"
     }
 ]
