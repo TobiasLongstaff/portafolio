@@ -16,13 +16,13 @@ const IcoLeng = ({tipo, id}) =>
         )  
     return(
         <>
-            { tipo.map(leng => {
+            {tipo.map(leng => {
                 return(
                     <div className="container-logo-leng" key={Math.random()}>
                         <img className="img-logo-leng" loading="lazy" src={leng.icono} alt={leng.leng}></img>
                     </div>
                 )
-            }) }                
+            })}                
         </>
     )
 }
