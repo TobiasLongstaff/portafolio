@@ -2,7 +2,7 @@
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tobiaslongstaff.github.io/",
+  "homepage": "http://tobiaslongstaff.github.io",
   "dependencies": {
     "@iconscout/react-unicons": "^1.1.6",
     "@iconscout/react-unicons-monochrome": "^0.0.5",
